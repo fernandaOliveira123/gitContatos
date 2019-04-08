@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_contato"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:src="@drawable/icone_contato"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:paddingTop="6dp">
+
+        <TextView
+            android:id="@+id/txt_nome_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Murilo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_telefone_list"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="964850000"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
